@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:practice/createjob/job_screen.dart';
+import 'package:practice/filter/filter_user_screen.dart';
+import 'package:practice/headers/header_screen.dart';
+import 'package:practice/images/post_image_screen.dart';
 import 'package:practice/login/login_screen.dart';
 import 'package:practice/multiple%20posts/multi_post_without_model.dart';
 import 'package:practice/multiple%20posts/multi_posts_with_model.dart';
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: JobScreen(),
+      home: FilterUserScreen(),
     );
   }
 }
